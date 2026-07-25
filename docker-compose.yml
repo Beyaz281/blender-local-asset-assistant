@@ -1,0 +1,12 @@
+services:
+  ai-service:
+    build: .
+    container_name: blender_ai_backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+      - ./storage:/app/storage
+    environment:
+      - PYTHONUNBUFFERED=1
+      - GROQ_API_KEY="your Api key"
