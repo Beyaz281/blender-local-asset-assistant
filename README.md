@@ -1,5 +1,10 @@
 # 🐳 Dockerized RAG & LLM Based Blender AI Layout Assistant (v7.0)
 
+<img width="1920" height="1080" alt="2026-07-27-17-16-25-pjj7dyzg_kVjORyEQ" src="https://github.com/user-attachments/assets/3c96d76e-09e5-4ab4-b21f-c13904ea01b6" />
+
+### 🎥 Proje Demosu 
+https://youtu.be/7lmovybQdng
+
 Bu proje; yapay zeka ve 3D pipeline süreçlerini modern yazılım mimarileriyle birleştiren, **Dockerize edilmiş, mikroservis tabanlı bir Blender yapay zeka yerleşim ve taslak oluşturma asistanıdır**. Sistem, doğal dil komutlarını anlamlandırıp sahneyi inşa etmek için ilişkisel hiyerarşi ve RAG (Retrieval-Augmented Generation) mimarisini kullanır.
 
 📌 **v7.0 Güncelleme Notu:** Projenin bu sürümünde statik koordinat kısıtlamaları tamamen kaldırılmış; sistem çakışma önleyici (**Collision-Free**) ve asenkron (**Non-Blocking**) bir üretim standardına taşınmıştır.
@@ -35,6 +40,7 @@ Proje, istemci-sunucu (Client-Server) prensibine dayalı gevşek bağlı (loosel
 - **API Katmanı:** FastAPI, Uvicorn, Pydantic
 - **Yapay Zeka & RAG:** Groq SDK, ChromaDB
 - **Altyapı:** Docker & Docker Compose
+
 
 ---
 
