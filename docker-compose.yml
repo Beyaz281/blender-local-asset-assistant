@@ -7,6 +7,9 @@ services:
     volumes:
       - .:/app
       - ./storage:/app/storage
+      - ./models:/app/models
     environment:
       - PYTHONUNBUFFERED=1
-      - GROQ_API_KEY="your Api key"
+      - ANONYMOUS_TELEMETRY=False
+      - GROQ_API_KEY="your groq_api_key_here"
+      
